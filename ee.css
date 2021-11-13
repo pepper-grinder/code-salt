@@ -1,13 +1,24 @@
-
+#arti:hover{
+ background-color: #0645AD;  
+}
+.work{
+    background-color:#274364; 
+}
+li:hover{
+    background-color:#22c;
+}
+a{
+color:black;
+}
 body {
     margin: 0;
     padding-top: 800px;
-    
+   text-align: center; 
 }
 
 .profile {
     width: 175px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     border-radius: 50%;
 }
 
@@ -40,21 +51,24 @@ h1 {
 #name {
     font-size: 30px;
     line-height: 1.2;
-    font-family: cursive
+    font-family: cursive;
 }
 
 h2 {
     font-size: 30px;
     font-weight: 300;
     line-height: 1.2;
-    font-family: monospace
+    font-family: monospace;
 }
 
 #bio {
 
-    padding: 50px;
+    padding-top: 50px;
+     padding-right:50px;
+     padding-left:50px;
     text-align: center;
     font-size: 42px;
+    background-color: beige;
 }
 
 .line {
@@ -79,3 +93,28 @@ p {
     vertical-align: middle;
 
 }
+.List{
+    
+    float:left;
+    position: fixed;
+    top: -10px;
+    z-index: 10;
+  list-style: none;
+    
+}
+.List:hover{
+ cursor: pointer;
+    background-color:rgba(64,32,255,0.3);
+}
+.links{
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+     border:2px;
+}
+#videos{
+    background-color: #594850
+}
+
+
